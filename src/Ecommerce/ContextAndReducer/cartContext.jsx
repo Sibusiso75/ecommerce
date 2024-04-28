@@ -10,7 +10,7 @@ import { toast } from "react-toastify"
 import reducer from "./reducer"
 
 const initialState = {
-  items: cartItems,
+  items:cartItems,
   total: 0,
   amount: 0,
 };

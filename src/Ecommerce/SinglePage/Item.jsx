@@ -35,10 +35,10 @@ function Item(){
 </main>
           <main>Price - R{item.price}</main>
         </div>
-       
+    
         
           <br />
-        <button disabled={item.itemAdded}  onClick={()=>addToCart(item.id)} style={{padding:"10px", borderRadius:"10px",width:"fit-content",background:"black", color: "white" }}>
+        <button disabled={item.itemAdded}  onClick={()=>addToCart(item.id)} style={{marginLeft:"2%",color:"white",padding:"10px", borderRadius:"10px",width:"fit-content",background:"black"}}>
           Add to cart
         </button>
       </div>

@@ -73,6 +73,8 @@ body {
      .btns {
         display: flex;
         padding: 10px;
+        color:white;
+        margin-left:1%;
         font-size:normal;
         justify-content:space-around;
         width:50%;
@@ -210,8 +212,9 @@ cursor: pointer;
         display: flex;
         gap: 1rem;
         padding: 10px;
-        font-size: 35px;
         justify-content: center;
+        color:white;
+        margin-left:1%;
       
         border-radius:10px;
         background-color:black;
@@ -354,7 +357,8 @@ cursor: pointer;
         display: flex;
         gap: 1rem;
         padding: 10px;
-        font-size: 35px;
+        color:white;
+        margin-left:1%;        
         justify-content: center;
       
         border-radius:10px;

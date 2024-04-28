@@ -1,3 +1,5 @@
+import cartItems from "./Product";
+
 function reducer(state, action) {
    
     if(action.type==="ADD_TO_CART"){
