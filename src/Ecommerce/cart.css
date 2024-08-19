@@ -15,7 +15,24 @@ body {
         margin: 0px;
         margin: 0px;
      }
-
+     form, input, .btn2{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding:10px;
+        outline:none;
+        
+        gap:1.5rem;
+        padding:10px;
+      }
+    
+      
+      .btn2 {
+        background:orange;
+        width: 220px;
+    align-items: center;
+        font-weight: bold;
+      }
      .icons {
         font-size: 100px;
      }
@@ -23,12 +40,12 @@ body {
       .itemsAndButtons {
         
         display:flex;
+        flex-direction: column;
         border:none;
         padding:10px;
         flex-wrap: wrap;
         background-color:white;
         flex-direction:column;
-        text-wrap:wrap;
         width: fit-content;
     
 
@@ -45,8 +62,8 @@ body {
      
      .itemsContainer  {
         display: flex;
-        justify-content:space-evenly;
         flex-wrap: wrap;
+        width:200px;
         flex-direction: column;
         
           margin:20px;
@@ -182,174 +199,49 @@ body {
         margin: 0px;
         margin: 0px;
      }
-     .itemsContainer {
+     form, input, .btn2{
         display: flex;
-        justify-content:space-evenly;
-        word-wrap: break-word;
-        flex-wrap: wrap;
-     box-shadow:-1px 3px 3px 3px black;
-     padding:15px;
-     width:190px;
-     height:220px;
-      
-       
-
-     }
-     .itemsContainer:hover {
-cursor: pointer;
-     }
-    .itemsAndButtons {
-        display: flex;
-        margin: 10px;
-        border:none;
-        padding: 10px;
         flex-direction: column;
-        width: fit-content;
-
-
-     }
-    .btns {
-        display: flex;
-        gap: 1rem;
-        padding: 10px;
-        justify-content: center;
-        color:white;
-        margin-left:1%;
-      
-        border-radius:10px;
-        background-color:black;
-      
-       
-       
-     }
-    .inputSearch {
-        margin: 20px;
-        padding: 15px;
-        border-radius: 20px;
-    }
-    .btns:hover {
-        cursor: pointer;
-    }
-    .closeTap {
-        margin-left:-45px;
-    }
-    
-    .h3 {
-
-        font-size: 15px;
-        display: flex;
-        justify-content:flex-start;
-        gap:1rem;
-        color:whitesmoke;
-
-    }
-    a:visited{
-        color:aqua;
-
-    }
-    .shoppingCartAmount{
-        display: flex;
-        justify-content:flex-end;
-        margin-right:30px;
-        background-color: none;
-    }
-    .shoppingCart{
-        font-size: 30px;
-        margin-right:-20px;
-        background-color: none;
-    }
-    .amount {
-        display: flex;
-        margin-top: -14px;
-        background-color:red;
-        border: 1px solid red;
-        border-radius: 100%;
-        width: fit-content;
-        height: fit-content;
+        width: 200px;
         padding:10px;
-        font-size:10px;
-        font-weight:bolder;
-    }
-    .emptyBag {
-        margin: 20px;
-    }
-    .bag {
-        margin:10px;
-    }
-    .totalAndClear {
-        display: flex;
-        justify-content: space-between;
-        gap:2rem;
-    }
-    .total {
-      margin:50px;
-      margin-left:90px
-    }
-    .clearbtn {
-        margin-right:15px;
-        height:20px;
-        width:fit-content;
-        padding:3px;
+        outline:none;
+        
+        gap:1.5rem;
+        padding:10px;
+      }
+    
+      
+      .btn2 {
         background:orange;
- 
-    }
-    .clearbtn:hover {
-        display: flex;
-        justify-content: flex-end;
-        cursor: pointer;
-        border-radius: 2px solid white;
-        opacity: 0.7;
-    }
-    .cartContainer{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        
-        padding:10px;
-        gap: 2rem;
-       
-    }
-    button {
-    
-      background-color:transparent;
-        color:whitesmoke;
-        border: none;
-       
-        gap: 1rem;
-    }
-    button:hover {
-        cursor: pointer;
-    }
-   
-    .bagHeader{
-        display: flex;
-        justify-content: space-evenly;
-        
-    }
-}
-
-@media screen  and (min-width:1024px){
-    body{
-        margin: 0px;
-        margin: 0px;
-     }
+        width: 220px;
+    align-items: center;
+        font-weight: bold;
+      }
      .itemsContainer {
         display: flex;
-        word-wrap: break-word;
         flex-wrap: wrap;
+        flex-direction: column;
      box-shadow:-1px 3px 3px 3px black;
-     padding:15px;
-      
-       
+      width:300px;
+      height:300px;
+      gap:0.3rem;
+padding:10px;
+margin:10px;
+     }
+     .container{
+        display:flex;
+        flex-wrap: wrap;
 
+        gap:0.5rem;
      }
      .itemsContainer:hover {
 cursor: pointer;
      }
     .itemsAndButtons {
         display: flex;
+        flex-direction: column;
         margin: 10px;
-        text-align: center;
+        gap:1rem;
         border:none;
         padding: 10px;
      }
@@ -447,8 +339,190 @@ cursor: pointer;
     }
     .cartContainer{
         display: flex;
-        justify-content: space-evenly;
+        
+
+
         flex-wrap: wrap;
+        width:40%;
+        
+        padding:10px;
+        gap: 2rem;
+       
+    }
+    button {
+    
+      background-color:transparent;
+        color:whitesmoke;
+        border: none;
+       
+        gap: 1rem;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+   
+    .bagHeader{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }                                           
+
+
+
+
+}
+
+@media screen  and (min-width:1024px){
+    body{
+        margin: 0px;
+        margin: 0px;
+     }
+     form, input, .btn2{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding:10px;
+        outline:none;
+        
+        gap:1.5rem;
+        padding:10px;
+      }
+    
+      
+      .btn2 {
+        background:orange;
+        width: 220px;
+    align-items: center;
+        font-weight: bold;
+      }
+     .itemsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+     box-shadow:-1px 3px 3px 3px black;
+      width:300px;
+      height:300px;
+      gap:0.3rem;
+padding:10px;
+margin:10px;
+     }
+     .container{
+        display:flex;
+        flex-wrap: wrap;
+
+        gap:0.5rem;
+     }
+     .itemsContainer:hover {
+cursor: pointer;
+     }
+    .itemsAndButtons {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        gap:1rem;
+        border:none;
+        padding: 10px;
+     }
+    .btns {
+        display: flex;
+        gap: 1rem;
+        padding: 10px;
+        color:white;
+        margin-left:1%;        
+        justify-content: center;
+      
+        border-radius:10px;
+        background-color:black;
+      
+       
+       
+     }
+    .inputSearch {
+        margin: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        width:400px;
+    }
+    .btns:hover {
+        cursor: pointer;
+    }
+    .closeTap {
+        margin-left:-45px;
+    }
+   
+    .h3 {
+
+        font-size: 15px;
+        display: flex;
+        justify-content:flex-start;
+        gap:1rem;
+        color:whitesmoke;
+
+    }
+    a:visited{
+        color:aqua;
+
+    }
+    .shoppingCartAmount{
+        display: flex;
+        justify-content:flex-end;
+        margin-right:30px;
+        background-color: none;
+    }
+    .shoppingCart{
+        font-size: 30px;
+        margin-right:-20px;
+        background-color: none;
+    }
+    .amount {
+        display: flex;
+        margin-top: -14px;
+        background-color:red;
+        border: 1px solid red;
+        border-radius: 100%;
+        width: fit-content;
+        height: fit-content;
+        padding:10px;
+        font-size:10px;
+        font-weight:bolder;
+    }
+    .emptyBag {
+        margin: 20px;
+    }
+    .bag {
+        margin:10px;
+    }
+    .totalAndClear {
+        display: flex;
+        justify-content: space-between;
+        gap:2rem;
+    }
+    .total {
+      margin:50px;
+      margin-left:90px
+    }
+    .clearbtn {
+        margin-right:15px;
+        height:20px;
+        width:fit-content;
+        padding:3px;
+        background:orange;
+ 
+    }
+    .clearbtn:hover {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        border-radius: 2px solid white;
+        opacity: 0.7;
+    }
+    .cartContainer{
+        display: flex;
+        
+
+
+        flex-wrap: wrap;
+        width:40%;
         
         padding:10px;
         gap: 2rem;

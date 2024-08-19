@@ -2,6 +2,7 @@ import React from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import { useGlobalContext } from "../ContextAndReducer/cartContext"
 import  "../cart.css"
+import Navbar from "../Navbar"
 
 function Item(){
     const {id} = useParams()
@@ -15,25 +16,24 @@ function Item(){
       >
         Back Home
       </button>
-        <div>
+        <div >
         {
             items.filter((item)=>{
              return item.id === parseInt(id)
             }).map((item)=>{
-                return <div key={item.id}
+                return <div className="cartContainer" key={item.id}
                
                 >
-                     <div>
         <img
           src={item.image}
           alt={item.title}
-          style={{ width: "150px", height: "150px" }}
+          style={{ width: "90px", height: "90px" }}
         />
 
         <div className="itemsAndButtons">
-          <main> {item.title},           {item.details}
-</main>
-          <main>Price - R{item.price}</main>
+          <p> {item.title},           {item.details}
+</p>
+          <p>R{item.price}</p>
         </div>
     
         
@@ -41,8 +41,6 @@ function Item(){
         <button disabled={item.itemAdded}  onClick={()=>addToCart(item.id)} style={{marginLeft:"2%",color:"white",padding:"10px", borderRadius:"10px",width:"fit-content",background:"black"}}>
           Add to cart
         </button>
-      </div>
-      
       <br />
 
                 </div>

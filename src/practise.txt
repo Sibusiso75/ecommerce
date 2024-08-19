@@ -1,0 +1,24 @@
+Question 1- Can you tell me more about yourself?
+Answer - Hello everyone, my name is Sibusiso Matebese from South Africa
+I am a web developer skilled in both Frontend and Backend technologies.
+On the Frontend, I am proficient in HTML, CSS and JavaScript, as well 
+as popular JavaScript libraries such as React for buidling user interfaces. 
+I also have an experience in responseive web design and performance optimization
+for web applications
+On the backend, I am skilled in developing APIs, managing databases
+, implementing authentication and autherization using technologies such Node JS, Express
+and MongoDB.
+Little bit more about myself
+- I love solving problems, learning new things and working on challenging projects.
+Overall, my skillset as a full stack web developer allows me to work on all aspects of a 
+project, from designing the user interface to the server-side logic and 
+deploying the application to production
+
+Question 2 - what are your strongest professional areas?
+Answer - 
+1. Frontend development
+2. Backend development
+3. Database management
+
+Question 3 - What makes a remote team work?
+Answer - Clear communcation

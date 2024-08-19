@@ -3,6 +3,7 @@ import { useGlobalContext } from "../ContextAndReducer/cartContext";
 import {  useNavigate } from "react-router-dom";
 // import Categories from "./Categories";
 import "../cart.css";
+import Navbar from "../Navbar";
 
 // npx browserslist@latest --update-db - to update the browser
 function CartContainer() {
@@ -38,13 +39,19 @@ function CartContainer() {
         All
       </button> */}
       {/* <Categories /> */}
+      <main style={{position:"fixed",right:"5px", borderBottom:"2px groove black"}}>
+        <span className="total">total - R{total}</span>
 
-      <main className="cartContainer">
+
+       
+      </main>
+
+      <div >
         {items.filter((item)=>{
           return item.itemAdded===true
         })
      .map((item) => {
-            return <div key={item.id}>
+            return <div key={item.id}className="cartContainer">
               <div>
                 <div className="cart">
 
@@ -83,17 +90,13 @@ function CartContainer() {
       
             </div>
           })}
-      </main>
+         
+      </div>
       <br />
 
       <hr />
 
-      <main className="totalAndClear">
-        <span className="total">total - R{total}</span>
-
-
-       
-      </main>
+     
     </div>
   );
 }

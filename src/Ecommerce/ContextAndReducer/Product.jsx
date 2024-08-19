@@ -1,72 +1,10 @@
 const cartItems = [
-  {
-    id: 1,
-    title: "Apple iPhone ",
-    details: "14 Dual Sim 512Gb - Sky Blue",
-    price: 24500,
-    image: "https://th.bing.com/th?id=OPE.dJA5RdMwEMKSHw300C300&w=248&h=248&dpr=1.2&pid=21.1",
-    // image: <AiFillMobile />,
-    amount: 1,
-    category:"phones",
-    itemAdded:false,
-
-  },
-  {
-    id: 2,
-    title: "Apple iPhone Xs Max ",
-    details: "256Gb Silve",
-    price: 27999,
-    image: "https://th.bing.com/th?id=OPE.FOa8QYFndjVRBA300C300&w=248&h=248&dpr=1.2&pid=21.1",
-    // image: <FaMobileAlt />,
-    amount: 1,
-    category:"phones",
-    itemAdded:false,
-
-  },
-  {
-    id: 3,
-    title: "Apple iPhone 14 Pro Max",
-    details: " 256Gb Dual Sim - Deep Purple",
-    price: 41999,
-    image: "https://th.bing.com/th?id=OPE.D%2bT9XqhuEHJRSw300C300&w=248&h=248&dpr=1.2&pid=21.1",
-    // image: <MdMobileScreenShare />,
-    amount: 1,
-    category:"phones",
-    itemAdded:false,
-
-
-  },
-  {
-    id: 4,
-    title: "Apple iPhone 14",
-    details: "128Gb Dual Sim - Starlight White",
-    price:20399,
-    image: "https://th.bing.com/th?id=OPE.vvMCvOUHWGpqcw300C300&w=248&h=248&dpr=1.2&pid=21.1",
-    // image: <MdMobileScreenShare />,
-    amount: 1,
-    category:"phones",
-    itemAdded:false,
-
-
-  },
-  {
-    id: 5,
-    title: "Apple iPhone 14 Plus ",
-    details: "128Gb - Blue",
-    price: 23599,
-    image: "https://th.bing.com/th?id=OPE.dJA5RdMwEMKSHw300C300&w=248&h=248&dpr=1.2&pid=21.1",
-    // image: <MdMobileScreenShare />,
-    amount: 1,
-    category:"phones",
-    itemAdded:false,
-
-
-  },
+  
   {
     id: 6,
     title: "Lenovo IdeaPad 1 15IGL7 15.6",
     details: "Celeron, 4GB RAM, 256GB SSD, Win 11 Home",
-    price: 4869,
+    price: 5099,
     image: "https://tech.co.za/wp-content/uploads/2023/03/IdeaPad-1-15IGL7-Cloud-Greya.png",
     // image: <MdMobileScreenShare />,
     amount: 1,
@@ -74,11 +12,11 @@ const cartItems = [
     itemAdded:false,
 
 
-  },{
+  },{ 
     id: 7,
     title: "HP 250 G9 15.6",
     details: "Celeron, 8GB RAM, 256GB SSD, Win 11 Home ",
-    price: 6329,
+    price: 5499,
     image: "https://tech.co.za/wp-content/uploads/2023/02/HP-250-G9-a-500x375.png.webp",
     // image: <MdMobileScreenShare />,
     amount: 1,
@@ -90,7 +28,7 @@ const cartItems = [
     id: 8,
     title: "HP Laser 107a Printer – 4ZB77A",
     details: "128Gb - Blue",
-    price: 3289,
+    price: 3319,
     image: "https://tech.co.za/wp-content/uploads/2020/11/4ZB77Ab-500x375.png.webp",
     // image: <MdMobileScreenShare />,
     amount: 1,
@@ -312,7 +250,7 @@ const cartItems = [
     {
       id: 24,
       title: "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor – Super Ultrawide Screen QLED ",
-      price: 99999,
+      price: 7000,
       amount: 1,
       itemAdded:false,
       details: "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
