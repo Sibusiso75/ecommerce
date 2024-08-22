@@ -44,7 +44,7 @@ function Home() {
         
         src={item.image}
         alt={item.title}
-        style={{ width: "90px", height: "90px" }}
+        style={{ width: "120px", height: "120px" }}
         />
                
 

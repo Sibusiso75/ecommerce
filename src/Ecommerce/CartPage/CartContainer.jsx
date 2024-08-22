@@ -1,11 +1,9 @@
 import React from "react";
 import { useGlobalContext } from "../ContextAndReducer/cartContext";
 import {  useNavigate } from "react-router-dom";
-// import Categories from "./Categories";
 import "../cart.css";
 import Navbar from "../Navbar";
 
-// npx browserslist@latest --update-db - to update the browser
 function CartContainer() {
   const {  items, total, increase, decrease,remove} =
     useGlobalContext(); 
@@ -35,11 +33,8 @@ function CartContainer() {
       </button>
       <br />
       
-      {/* <button onClick={() => all()} className="clearbtn">
-        All
-      </button> */}
-      {/* <Categories /> */}
-      <main style={{position:"fixed",right:"5px", borderBottom:"2px groove black"}}>
+     
+      <main style={{position:"absolute",right:"5px", borderBottom:"2px groove black"}}>
         <span className="total">total - R{total}</span>
 
 
